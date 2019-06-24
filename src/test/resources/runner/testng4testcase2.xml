@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learning TestNG">
+
+<listeners>
+
+<listener class-name="listeners.CustomListeners"></listener>
+
+<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+
+
+</listeners>
+
+
+
+  <!-- <test thread-count="5" name="Login">
+    <classes>
+      
+      <class name="testcases.TestCase1Day6"/>
+      
+    </classes>
+  </test> Test
+  
+   --> 
+   <!-- <test thread-count="5" name="Validate">
+    <classes>
+      
+      
+      <class name="testcases.TestCase2Day6"/>
+    </classes>
+  </test> Test
+ -->  
+ <!--   <test thread-count="5" name="Dependancy">
+    
+    <classes>
+      <class name="testcases.TestCase3Day6"/>
+      
+    </classes>
+  </test> Test
+ -->  
+  
+  <!--   <test thread-count="5" name="Validatewithlistener">
+    <classes>
+      
+      
+      <class name="testcases.TestCase4ToTestListenerDay6"/>
+    </classes>
+  </test> Test
+ -->  
+   <test thread-count="5" name="Validatetitle">
+     <groups>
+    <run>
+      <include name="bvt"/>
+      
+    </run>
+  </groups>
+   
+    <classes>
+      
+      
+      <class name="testcases.TestCase2Day6"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

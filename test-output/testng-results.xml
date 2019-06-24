@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Learning TestNG" duration-ms="13054" started-at="2019-06-24T02:52:36Z" finished-at="2019-06-24T02:52:49Z">
+    <groups>
+    </groups>
+    <test name="Bank Manager Login Test" duration-ms="4071" started-at="2019-06-24T02:52:36Z" finished-at="2019-06-24T02:52:40Z">
+      <class name="testcases.BankManagerLoginTestDay8test">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:testcases.BankManagerLoginTestDay8test@34f5090e]" name="loginAsBankManager" duration-ms="4029" started-at="2019-06-24T02:52:36Z" finished-at="2019-06-24T02:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- testcases.BankManagerLoginTestDay8test -->
+    </test> <!-- Bank Manager Login Test -->
+    <test name="Add Customer Test" duration-ms="5079" started-at="2019-06-24T02:52:40Z" finished-at="2019-06-24T02:52:45Z">
+      <class name="testcases.AddCustomerTestDay8Test">
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTestDay8Test@3fb1549b]" name="addCustomer" duration-ms="5048" started-at="2019-06-24T02:52:40Z" data-provider="getData" finished-at="2019-06-24T02:52:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pranshu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201016.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- testcases.AddCustomerTestDay8Test -->
+    </test> <!-- Add Customer Test -->
+    <test name="OPen Account Test" duration-ms="3871" started-at="2019-06-24T02:52:45Z" finished-at="2019-06-24T02:52:49Z">
+      <class name="testcases.OpenAccountTestDay8Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.OpenAccountTestDay8Test@4bb33f74]" name="setUp" is-config="true" duration-ms="27053" started-at="2019-06-24T02:52:09Z" finished-at="2019-06-24T02:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTestDay8Test@4bb33f74]" name="addCustomer" duration-ms="3865" started-at="2019-06-24T02:52:45Z" data-provider="getData" finished-at="2019-06-24T02:52:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pranshu Dev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Account created successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.OpenAccountTestDay8Test@4bb33f74]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-24T02:52:49Z" finished-at="2019-06-24T02:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.OpenAccountTestDay8Test -->
+    </test> <!-- OPen Account Test -->
+  </suite> <!-- Learning TestNG -->
+</testng-results>

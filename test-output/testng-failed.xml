@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Learning TestNG]">
+  <listeners>
+    <listener class-name="listeners.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Bank Manager Login Test(failed)">
+    <classes>
+      <class name="testcases.BankManagerLoginTestDay8test">
+        <methods>
+          <include name="loginAsBankManager"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.BankManagerLoginTestDay8test -->
+    </classes>
+  </test> <!-- Bank Manager Login Test(failed) -->
+  <test thread-count="5" name="Add Customer Test(failed)">
+    <classes>
+      <class name="testcases.AddCustomerTestDay8Test">
+        <methods>
+          <include name="addCustomer"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.AddCustomerTestDay8Test -->
+    </classes>
+  </test> <!-- Add Customer Test(failed) -->
+  <test thread-count="5" name="OPen Account Test(failed)">
+    <classes>
+      <class name="testcases.OpenAccountTestDay8Test">
+        <methods>
+          <include name="addCustomer"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.OpenAccountTestDay8Test -->
+    </classes>
+  </test> <!-- OPen Account Test(failed) -->
+</suite> <!-- Failed suite [Learning TestNG] -->

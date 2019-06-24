@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <listeners>
+    <listener class-name="listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Validate_Reg(failed)">
+    <classes>
+      <class name="testcases.TestCase2">
+        <methods>
+          <include name="validateTitleTest"/>
+        </methods>
+      </class> <!-- testcases.TestCase2 -->
+    </classes>
+  </test> <!-- Validate_Reg(failed) -->
+  <test thread-count="5" name="Dependancy_Reg(failed)">
+    <classes>
+      <class name="testcases.TestCase3">
+        <methods>
+          <include name="composeEmail"/>
+        </methods>
+      </class> <!-- testcases.TestCase3 -->
+    </classes>
+  </test> <!-- Dependancy_Reg(failed) -->
+  <test thread-count="5" name="Validatewithlistener_Reg(failed)">
+    <classes>
+      <class name="testcases.TestCase4ToTestListener">
+        <methods>
+          <include name="validateTitleTestt"/>
+        </methods>
+      </class> <!-- testcases.TestCase4ToTestListener -->
+    </classes>
+  </test> <!-- Validatewithlistener_Reg(failed) -->
+</suite> <!-- Failed suite [Regression] -->

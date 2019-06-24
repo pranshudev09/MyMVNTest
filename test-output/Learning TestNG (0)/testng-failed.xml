@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Learning TestNG (0)]">
+  <test thread-count="5" name="Dependancy(failed)">
+    <classes>
+      <class name="testcases.TestCase3">
+        <methods>
+          <include name="composeEmail"/>
+        </methods>
+      </class> <!-- testcases.TestCase3 -->
+    </classes>
+  </test> <!-- Dependancy(failed) -->
+</suite> <!-- Failed suite [Learning TestNG (0)] -->
